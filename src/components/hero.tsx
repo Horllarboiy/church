@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
       <div className="md:w-4/5 w-screen">
-        <StaticImage className="h-full w-full" src="../images/hero2.png" alt="hero" />
+        <StaticImage className="h-full w-full" src="../images/heros.jpg" alt="hero" />
       </div>
     </div>
   );
