@@ -13,14 +13,14 @@ const HomePage: React.FC = () => {
           </h1>
           <p className="flex flex-col mx-5">
             <span className="my-5">
-              Welcome to Faith Community Church, where love knows no bounds and
+              Welcome to The Root and the Offspring of David Ministry, where love knows no bounds and
               generosity is a way of life. We extend a warm invitation for you
               to join our family, a community that is dedicated to witnessing
               the extraordinary works of Jesus.
             </span>
             <span className="mt-5">
-              With open hearts and open doors in both Hopkinton and Framingham,
-              MA, we are more than just a church - we are a thriving community.
+              With open hearts and open doors in the Church,
+              we are more than just a church - we are a thriving community.
               Join us as we come together to worship, learn, and grow in faith.
             </span>
           </p>

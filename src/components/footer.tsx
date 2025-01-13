@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="min-h-screen bg-gray-900 text-white flex justify-center shadow-lg">
+    <footer className="min-h-full bg-gray-900 pb-10 text-white flex justify-center shadow-lg">
       <div className="text-center">
-        <h3 className="mt-32 font-bold text-xl">
+        <h3 className="mt-24 font-bold text-xl">
           {" "}
           The Root and the offspring of david ministry
         </h3>
