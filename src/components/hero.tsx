@@ -5,9 +5,9 @@ import { Link } from "gatsby";
 const Hero: React.FC = () => {
   return (
     <div className="hero flex md:flex-row flex-col">
-      <div className="w-4/5 mx-auto md:mx-0 md:w-3/4 h-screen md:ml-10 ">
-        <div className="md:mt-28 mt-36 capitalize poppins text-white">
-          <h2 className="mx-auto font-semibold my-4 text-center">
+      <div className="w-5/6 mx-auto md:mx-0 md:w-3/4 h-4/5 md:h-screen ">
+        <div className="md:mt-28 mt-24 capitalize poppins text-white">
+          <h2 className=" font-semibold my-4 text-sm md:text-center">
             The Root and the offspring of david ministry
           </h2>
           <div className="md:mx-28">
@@ -34,7 +34,9 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="w-full"></div>
+      <div className="w-full">
+        <StaticImage className="h-full" src="../images/hero2.png" alt="hero" />
+      </div>
     </div>
   );
 };
