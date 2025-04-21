@@ -1,10 +1,12 @@
 import React from "react";
+import Button from "./button";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="min-h-screen bg-gray-900 text-white flex justify-center shadow-lg">
+    <footer className="min-h-full bg-black pb-10 text-white flex justify-center shadow-lg">
       <div className="text-center">
-        <h3 className="mt-32 font-bold text-xl">
+        <h3 className="mt-24 font-bold text-xl">
           {" "}
           The Root and the offspring of david ministry
         </h3>
@@ -20,10 +22,19 @@ const Footer: React.FC = () => {
             Oando b.stop, Along <br /> Sango/Ijoko Rd Ogun State
           </span>
         </p>
-        <p>
-          &copy; {new Date().getFullYear()}. All rights
-          reserved.
-        </p>
+        <div className="my-4">
+          {" "}
+          <Button link="/" title="CONTACT US" />
+        </div>
+        {/* <div className="flex text-5xl items-center">
+          <i>
+            <FaFacebook />
+          </i>
+          <i>
+            <FaInstagram />
+          </i>
+        </div> */}
+        <p>&copy; {new Date().getFullYear()}. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -9,25 +9,25 @@ const Navbar: React.FC = () => {
     setIsOpen((prev) => !prev);
   };
   return (
-    <nav className="flex justify-between z-40 text-white px-4 py-2 items-center absolute top-0 left-0 right-0 w-screen">
+    <nav className="flex justify-between z-40 text-white px-3 md:px-10 py-2 items-center absolute top-0 left-0 right-0 w-screen">
       <h1 className="z-50">
         <StaticImage
           quality={100}
-          className="h-14 w-14"
-          src="../images/logo.png"
+          className="h-20 w-20"
+          src="../images/icon.png"
           alt="hero"
         />
       </h1>
       <div className="">
         <button
           onClick={handleIsOpen}
-          className={`flex items-center relative z-50 ${
+          className={`flex items-center md:text-xl font-bold ml-7 relative z-50 ${
             isOpen ? `text-gray-900` : `text-white`
           }`}
         >
           <span>Menu</span>
-          <span className="ml-1">
-            {isOpen ? <FaToggleOn size={27} /> : <FaToggleOff size={27} />}
+          <span className="ml-2 text-4xl">
+            {isOpen ? <FaToggleOn /> : <FaToggleOff />}
           </span>
         </button>
 
