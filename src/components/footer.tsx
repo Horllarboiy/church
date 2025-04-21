@@ -4,7 +4,11 @@ import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   return (
+<<<<<<< HEAD
     <footer className="min-h-full bg-black pb-10 text-white flex justify-center shadow-lg">
+=======
+    <footer className="min-h-full bg-gray-900 pb-10 text-white flex justify-center shadow-lg">
+>>>>>>> fa00838a6d29e0f2e820d0962ae5aa8499cab77d
       <div className="text-center">
         <h3 className="mt-24 font-bold text-xl">
           {" "}

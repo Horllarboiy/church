@@ -12,6 +12,7 @@ const HomePage: React.FC = () => {
           <h1 className=" md:mt-24 capitalize font-black text-4xl md:text-5xl leading-normal">
             Welcome to The Root and the offspring of david ministry
           </h1>
+<<<<<<< HEAD
           <p className="flex flex-col mx-3 mt-10 text-[19px]">
             <span className="my-5 ">
               Welcome to The Root and the Offspring of David Ministry, where
@@ -26,6 +27,19 @@ const HomePage: React.FC = () => {
               With hearts open and doors wide, we are not just a church—we are a
               vibrant community. Come join us as we gather to worship, learn,
               and grow in faith together.
+=======
+          <p className="flex flex-col mx-5">
+            <span className="my-5">
+              Welcome to The Root and the Offspring of David Ministry, where love knows no bounds and
+              generosity is a way of life. We extend a warm invitation for you
+              to join our family, a community that is dedicated to witnessing
+              the extraordinary works of Jesus.
+            </span>
+            <span className="mt-5">
+              With open hearts and open doors in the Church,
+              we are more than just a church - we are a thriving community.
+              Join us as we come together to worship, learn, and grow in faith.
+>>>>>>> fa00838a6d29e0f2e820d0962ae5aa8499cab77d
             </span>
           </p>
           <Link
